@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EZStart_Example' do
+  pod 'EZStart', :path => '../'
+
+  target 'EZStart_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
