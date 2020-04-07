@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* EZStart_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZStart_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A04EF85F22A0B10659C746C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6A04EF85F22A0B10659C746C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		713C780663889A48A58B8DCD /* Pods-EZStart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZStart_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EZStart_Tests/Pods-EZStart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C6A967F0C03F863D13F12FA /* EZStart.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EZStart.podspec; path = ../EZStart.podspec; sourceTree = "<group>"; };
+		9C6A967F0C03F863D13F12FA /* EZStart.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EZStart.podspec; path = ../EZStart.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B647292981F79B6B55E4A387 /* Pods_EZStart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZStart_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBECDA636BEBFF47930AB179 /* Pods-EZStart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZStart_Example.debug.xcconfig"; path = "Target Support Files/Pods-EZStart_Example/Pods-EZStart_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F82D026048878458FF1CB6A0 /* Pods-EZStart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZStart_Example.release.xcconfig"; path = "Target Support Files/Pods-EZStart_Example/Pods-EZStart_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F840FF8231F37F9817B81B62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F840FF8231F37F9817B81B62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				713C780663889A48A58B8DCD /* Pods-EZStart_Tests.debug.xcconfig */,
 				2DB22BAC2E3630C10CF564D2 /* Pods-EZStart_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
